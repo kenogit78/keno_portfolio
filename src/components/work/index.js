@@ -1,11 +1,12 @@
 import React from 'react'
 
-const index = () => {
+
+const Work = () => {
   return (
     <div>
-        index
+   Work
     </div>
   )
 }
 
-export default index
+export default Work
