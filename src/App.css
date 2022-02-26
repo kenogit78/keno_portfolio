@@ -25,3 +25,15 @@ li{
 a{
   text-decoration: none
 }
+
+@media screen and (max-width: 760px){
+  .light{
+    padding: 1em 2em;
+  }
+  
+  .dark{
+    padding: 1em 2em;
+    background: #111111;
+    color: #fff
+  }
+}

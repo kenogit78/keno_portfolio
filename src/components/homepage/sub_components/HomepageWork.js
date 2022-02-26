@@ -18,9 +18,13 @@ const HomepageWork = ({ prevSlide, nextSlide, slides }) => {
 
           <section className='ballgecko'>
               <div className='text'>
+                <div>
                   <p className='title'> { slides.title } </p>
-                  <p className='type'> { slides.type} </p>
-                  <p> View project </p>
+                  </div>
+                  <div>
+                    <p className='type'> { slides.type} </p>
+                    <p> View project </p>
+                  </div>
               </div>
               
               <div>

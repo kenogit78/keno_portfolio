@@ -34,12 +34,12 @@
     display: flex;  
     justify-content: center;
     align-items: center;
-    transition-duration: 19s ease;
+    transition-duration: 10s ease;
 }
 
 #work .ballgecko .text {
     margin-right: 8em;
-    transition-duration: 19s;
+    transition-duration: 5s;
 }
 
 #work .ballgecko .text .title {
@@ -75,4 +75,38 @@
     z-index: 5;
     cursor: pointer;
     user-select: none;
+  }
+
+  
+@media screen and (max-width: 760px){
+    .shape{
+        display: none
+    }
+
+    .homescreen h1{
+        font-size: 3em;
+        padding: 0.3em 0;
+   
+    }
+    
+    .homescreen p{
+        font-size: 2.5em;
+        padding: 0.1em 0;
+    }
+
+    #work .ballgecko {
+        flex-direction:column       
+    }
+
+    #work .ballgecko .text {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 1em 0;
+        width: 100%
+    }
+
+    #work .ballgecko .text .title {
+        font-size: 3em;
+        margin-bottom: 0.3em;
+    }
   }
