@@ -4,7 +4,7 @@ import React from 'react'
 const Work = () => {
   return (
     <div>
-   Work
+      <h1>Work</h1>
     </div>
   )
 }

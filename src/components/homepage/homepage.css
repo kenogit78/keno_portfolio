@@ -2,23 +2,6 @@
     padding: 3em 6em;
 }
 
-
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 3em;
-  
-}
-
-.header h1{
-    text-transform: uppercase;
-}
-
-.header ul li{
-    font-size: 1.3em;
-}
-
 .homescreen{
     display: flex;
     justify-content: space-between;
@@ -36,8 +19,8 @@
     padding: 0.2em 0;
 }
 
-.homepage_work {
-    padding-top: 6em;
+#work {
+    padding: 6em 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,7 +28,7 @@
     
 }
 
-.homepage_work .ballgecko {
+#work .ballgecko {
     position: absolute;
     width: 100%;
     display: flex;  
@@ -54,17 +37,17 @@
     transition-duration: 19s ease;
 }
 
-.homepage_work .ballgecko .text {
+#work .ballgecko .text {
     margin-right: 8em;
     transition-duration: 19s;
 }
 
-.homepage_work .ballgecko .text .title {
+#work .ballgecko .text .title {
     font-size: 4em;
     margin-bottom: 0.3em;
 }
 
-.homepage_work .ballgecko .text .type {
+#work .ballgecko .text .type {
     font-size: 1em;
     text-transform: uppercase;
     font-weight: bold;
@@ -72,7 +55,7 @@
     margin-bottom: 1em;
 }
 
-.homepage_work .ballgecko .right-arrow {
+#work .ballgecko .right-arrow {
     position: absolute;
     top: 45%;
     right: 1px;
@@ -83,7 +66,7 @@
     user-select: none;
   }
   
-  .homepage_work .ballgecko .left-arrow {
+#work .ballgecko .left-arrow {
     position: absolute;
     top: 45%;
     left: 1px;

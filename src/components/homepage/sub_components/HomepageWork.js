@@ -8,7 +8,7 @@ const HomepageWork = ({ prevSlide, nextSlide, slides }) => {
   return slides ? (
 
     
-    <div className='homepage_work'>
+    <div id='work'>
 
         
           <div className='circle'>
