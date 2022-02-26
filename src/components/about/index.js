@@ -1,5 +1,6 @@
 import React from 'react'
-import Navbar from '../navbar'
+// import Navbar from '../navbar'
+// import Footer from '../footer'
 import './about.css'
 
 const About = () => {
@@ -9,7 +10,7 @@ const About = () => {
   
 
     <div className='about'>
-    <Navbar />
+    {/* <Navbar /> */}
         
         <div className='flex'>
           <section className='text'>
@@ -53,6 +54,7 @@ const About = () => {
           </section>
 
         </div>
+        {/* <Footer /> */}
     </div>
     </>
   )

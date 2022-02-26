@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import HomepageWork from './sub_components/HomepageWork'
-import Navbar from '../navbar'
+// import Navbar from '../navbar'
+// import Footer from '../footer'
 import Shape from '../../assets/images/shape.png'
 import Pentfort from '../../assets/images/pentfort.png'
 import Circle from '../../assets/images/circle.png'
@@ -48,7 +49,7 @@ if(!Array.isArray(data) || data.length <= 0){
 
   return (
     <div className='homepage'>
-      <Navbar />
+      {/* <Navbar /> */}
   
       <section className='homescreen'>
 
@@ -69,6 +70,8 @@ if(!Array.isArray(data) || data.length <= 0){
 
 
        < HomepageWork prevSlide={prevSlide} nextSlide={nextSlide} slides={slides} />
+
+       {/* <Footer /> */}
        
     </div>
   )

@@ -8,9 +8,15 @@ body{
   font-family: 'Open Sans';
 }
 
-/* .App{
-  
-} */
+.light{
+  padding: 3em 6em;
+}
+
+.dark{
+  padding: 3em 6em;
+  background: #111111;
+  color: #fff
+}
 
 li{
   list-style: none;
