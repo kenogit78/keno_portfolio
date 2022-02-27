@@ -11,7 +11,7 @@
 .homescreen h1{
     font-size: 3.5em;
     padding: 0.7em 0;
-    color: blue;
+    color: rgb(75, 75, 231);
 }
 
 .homescreen p{
@@ -60,7 +60,7 @@
     top: 45%;
     right: 1px;
     font-size: 3em;
-    color: blue;
+    color: rgb(75, 75, 231);
     z-index: 5;
     cursor: pointer;
     user-select: none;
@@ -71,7 +71,7 @@
     top: 45%;
     left: 1px;
     font-size: 3em;
-    color: blue;
+    color: rgb(75, 75, 231);
     z-index: 5;
     cursor: pointer;
     user-select: none;
@@ -104,6 +104,14 @@
         justify-content: space-between;
         margin: 0 0 3em 0;
         width: 100%
+    }
+
+    #work .ballgecko .text .titleDiv{
+        flex: 0.6
+    }
+
+    #work .ballgecko .text .typeDiv{
+        flex: 0.4
     }
 
     #work .ballgecko .text .title {

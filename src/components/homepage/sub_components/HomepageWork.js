@@ -20,7 +20,7 @@ const HomepageWork = ({ prevSlide, nextSlide, slides }) => {
               <div className='text'>
                 <div className='titleDiv'>
                   <h3 className='title'> { slides.title } </h3>
-                  </div>
+                </div>
 
                   <div className='typeDiv'>
                     <p className='type'> { slides.type} </p>

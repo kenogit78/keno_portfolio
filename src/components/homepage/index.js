@@ -58,7 +58,7 @@ if(!Array.isArray(data) || data.length <= 0){
             
             <p> I'm Paul Keno!</p>
 
-            <p> a Fullstack Software Engineer 👨‍💻 who love solving problems 👷‍♂️ </p>
+            <p> a Fullstack Software Engineer 👨‍💻 who loves solving problems 👷‍♂️ </p>
 
         </div>
 
