@@ -10,6 +10,7 @@ body{
 
 .light{
   padding: 3em 6em;
+  width: 100%;
 }
 
 .dark{
@@ -33,6 +34,18 @@ a{
   
   .dark{
     padding: 1em 2em;
+    background: #111111;
+    color: #fff
+  }
+}
+
+@media screen and (max-width: 538px){
+  .light{
+    padding: 1em 1.5em;
+  }
+  
+  .dark{
+    padding: 1em 1.5em;
     background: #111111;
     color: #fff
   }

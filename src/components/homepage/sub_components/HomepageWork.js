@@ -18,16 +18,17 @@ const HomepageWork = ({ prevSlide, nextSlide, slides }) => {
 
           <section className='ballgecko'>
               <div className='text'>
-                <div>
-                  <p className='title'> { slides.title } </p>
+                <div className='titleDiv'>
+                  <h3 className='title'> { slides.title } </h3>
                   </div>
-                  <div>
+
+                  <div className='typeDiv'>
                     <p className='type'> { slides.type} </p>
                     <p> View project </p>
                   </div>
               </div>
               
-              <div>
+              <div className='design'>
                   <img src={ slides.design } alt={ 'Design' } />
               </div>
               

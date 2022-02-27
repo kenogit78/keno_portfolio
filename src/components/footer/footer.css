@@ -3,3 +3,19 @@
     margin-top: 4em;
     padding: 1em 0;
 }
+
+.footer-light, .footer-dark {
+    padding: 1em 0;
+}
+
+.footer-light a{
+    padding: 2em 0;
+    text-decoration: none;
+    color: #111111;
+}
+
+.footer-dark a{
+    padding: 2em 0;
+    text-decoration: none;
+    color: #fff;
+}

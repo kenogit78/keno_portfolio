@@ -22,6 +22,7 @@
 }
 
 .about .technologies {
+    border-left: 1px solid #bebebe;
    padding: 1em
 }
 .about .technologies p{
@@ -37,3 +38,34 @@
 .about .technologies .stack{
     margin-bottom: 1.2em;
 }
+
+@media screen and (max-width: 760px){
+    .about .flex{
+        flex-direction: column;
+    }
+    
+    .about .technologies {
+        border-left: none;
+       padding: 1.5em 0;
+    }
+    .about .technologies .tech {
+        display: flex;
+        justify-content: space-around;
+    }
+  }
+  
+  @media screen and (max-width: 538px){
+    
+    
+    .about .text p{
+        font-size: 1.6em;
+        margin-bottom: 0.5em;
+        flex: 0.7;
+    }
+    
+    .about .text h1{
+        font-size: 2.5em;
+        margin-bottom: 0.3em;
+        color: blue
+    }
+  }

@@ -26,9 +26,9 @@ function App() {
           {/* <Route path="work" element={<Work />} /> */}
         </Routes>
         
-        <Footer />
+        <Footer handleToggle={handleToggle} toggle={toggle}/>
      
-    </div>
+    </div >
   );
 }
 

@@ -56,9 +56,9 @@ if(!Array.isArray(data) || data.length <= 0){
         <div className='text'> 
             <h1> Hello! </h1>
             
-            <p> I'm Paul Keno</p>
+            <p> I'm Paul Keno!</p>
 
-            <p> a Fullstack Software Engineer 👨‍💻 </p>
+            <p> a Fullstack Software Engineer 👨‍💻 who love solving problems 👷‍♂️ </p>
 
         </div>
 

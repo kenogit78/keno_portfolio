@@ -8,6 +8,16 @@
     text-transform: uppercase;
 }
 
+.header .ul-light li a{
+    color: #111111
+}
+
+.header .ul-dark li a{
+    color: #ffffff
+}
+
+
+
 .header ul li{
     font-size: 1.3em;
 }

@@ -12,7 +12,7 @@ const Navbar = ( {toggle, handleToggle}) => {
 
            { toggle === false ?  <MdDarkMode onClick={handleToggle} size='1.5em' /> : <MdLightMode onClick={handleToggle} size='1.5em' /> }
            
-           <ul>
+           <ul className={ toggle === false ? 'ul-light' : 'ul-dark'}>
                 <li> <Link to='/'> Home </Link>  </li>
                 <li> <Link to='/work'> Work </Link>  </li>
                 <li> <Link to='/about'> About </Link>  </li>

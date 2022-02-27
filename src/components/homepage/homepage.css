@@ -15,7 +15,7 @@
 }
 
 .homescreen p{
-    font-size: 3em;
+    font-size: 2.7em;
     padding: 0.2em 0;
 }
 
@@ -79,7 +79,7 @@
 
   
 @media screen and (max-width: 760px){
-    .shape{
+    .homescreen .shape{
         display: none
     }
 
@@ -95,18 +95,77 @@
     }
 
     #work .ballgecko {
-        flex-direction:column       
+        flex-direction:column; 
+        top:1em
     }
 
     #work .ballgecko .text {
         display: flex;
         justify-content: space-between;
-        margin: 0 0 1em 0;
+        margin: 0 0 3em 0;
         width: 100%
     }
 
     #work .ballgecko .text .title {
         font-size: 3em;
         margin-bottom: 0.3em;
+    }
+    #work .ballgecko .text .type {
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #505050;
+        margin-bottom: 0;
+    }
+  }
+
+  @media screen and (max-width: 538px){
+    .homescreen {
+        width:100%
+    }
+    
+    .homescreen h1{
+        font-size: 2.7em;
+        padding: 0.2em 0;
+   
+    }
+    
+    .homescreen p{
+        font-size: 1.9em;
+        /* padding: 0.1em 0; */
+    }
+
+    #work {
+        padding: 4em 0; 
+    }
+
+    #work .ballgecko {
+        flex-direction:column       
+    }
+
+    #work .circle img {
+        width: 200px;
+        height: 200px;    
+    }
+
+    #work .ballgecko .text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 1em 0;
+        width: 100%
+    }
+
+    #work .ballgecko .text .title {
+        font-size: 2em;
+        margin-bottom: 0.3em;
+    }
+
+    #work .ballgecko .design {
+        margin-top: 1em;
+    }
+    #work .ballgecko .design img{
+        width: 200px;
+        height: 120px; 
     }
   }
